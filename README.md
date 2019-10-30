@@ -1,4 +1,4 @@
-# server-basic
+# express-basic
 
 > Basic express server for running tests.
 
