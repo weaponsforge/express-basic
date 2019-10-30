@@ -24,7 +24,8 @@
 `npm run start`
 
 4. Open a web browser to  
-`http://localhost:3000`
+   - `http://localhost:3000`
+   - `http://localhost:3000/test`
 
 
 20191030
