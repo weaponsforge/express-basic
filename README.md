@@ -12,6 +12,16 @@
 
 
 
+## Content
+
+1. **index.js**  
+Basic express server set-up.
+
+2. **index-static.js**  
+Basic express server set-up that serves static (html, css, js) scripts from the **/public** directory.
+
+
+
 ## Usage
 
 1. Clone this repository.  
@@ -21,7 +31,8 @@
 `npm install`
 
 3. Run the server.  
-`npm run start`
+	- `npm run start` to start the basic express server
+	- `npm run dev:server` to start the basic express server that loads static (front-end) files from the **/public** directory.
 
 4. Open a web browser to  
    - `http://localhost:3000`
