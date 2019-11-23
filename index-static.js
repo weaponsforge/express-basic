@@ -4,11 +4,10 @@ const path = require('path')
 const app = express()
 
 // Enable express to serve static files from a directory
-app.use(express.static(path.join(__dirname, '..', 'express-static/public')))
+app.use(express.static('public'))
 
-// Serve files from the static directory
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '..', 'express-basic/public', '*.html'))
+app.get('/test', (req, res) => {
+  res.status(200).send({message: 'Okay, it Works!'})
 })
 
 app.listen(PORT, () => {
