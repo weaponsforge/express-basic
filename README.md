@@ -32,7 +32,7 @@ Basic express server set-up that serves static (html, css, js) scripts from the 
 
 3. Run the server.  
 	- `npm run start` to start the basic express server
-	- `npm run dev:statuc` to start the basic express server that loads static (front-end) files from the **/public** directory.
+	- `npm run dev:static` to start the basic express server that loads static (front-end) files from the **/public** directory.
 
 4. Open a web browser to  
    - `http://localhost:3000`
